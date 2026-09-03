@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-black: #131722;
+  --color-tv-gray: #787b86;
+  --color-tv-lightGray: #f0f3fa;
+  --color-tv-border: #e0e3eb;
+  --color-tv-hover: #f8f9fd;
+  --color-tv-blue: #2962ff;
+  --color-tv-blueHover: #1e53e5;
+  --color-tv-green: #089981;
+  --color-tv-red: #f23645;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Inter, sans-serif;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Inter, sans-serif;
+  color: #131722;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.nav-btn-gradient {
+  background: linear-gradient(90deg, #2962ff 0%, #8000ff 100%);
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+.nav-btn-gradient:hover {
+  opacity: 0.95;
+}
+.nav-btn-gradient:active {
+  transform: scale(0.98);
+}
+
+.trading-card {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.trading-card:hover {
+  border-color: #2962ff;
+  box-shadow: 0 4px 12px rgba(19, 23, 34, 0.05);
+}

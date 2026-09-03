@@ -1,0 +1,6 @@
+{
+  "name": "Markets Overview",
+  "description": "Global financial quotes, real-time index dynamics, charts, and trading data",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
